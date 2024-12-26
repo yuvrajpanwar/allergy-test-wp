@@ -19,9 +19,9 @@
 # /*.iml
 
 # Ignore sensitive files
-wp-config.php
-wp-config-sample.php
-.env
+# wp-config.php
+# wp-config-sample.php
+# .env
 
 # Ignore WordPress core files
 # /wp-admin/
@@ -39,10 +39,10 @@ wp-config-sample.php
 # !/wp-content/themes/your-custom-theme/
 
 # Ignore WordPress core backups and logs
-*.sql
-*.tar.gz
-*.zip
-*.log
+# *.sql
+# *.tar.gz
+# *.zip
+# *.log
 
 # Ignore Composer and Node dependencies
 # /vendor/
