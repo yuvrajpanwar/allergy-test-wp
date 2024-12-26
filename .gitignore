@@ -24,10 +24,10 @@ wp-config-sample.php
 .env
 
 # Ignore WordPress core files
-/wp-admin/
+# /wp-admin/
 /wp-includes/
 
-# Ignore uploads (optional, if you don't want to track them)
+Ignore uploads (optional, if you don't want to track them)
 /wp-content/uploads/
 
 # Ignore plugins (optional, except for custom plugins)

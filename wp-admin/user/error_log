@@ -1,0 +1,4 @@
+[30-Nov-2022 09:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/orderh2l/public_html/wp-admin/user/menu.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/orderh2l/public_html/wp-admin/user/menu.php on line 10
