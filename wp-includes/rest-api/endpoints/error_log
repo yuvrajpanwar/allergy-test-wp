@@ -1,0 +1,12 @@
+[30-Nov-2022 09:16:49 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home2/orderh2l/public_html/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/orderh2l/public_html/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php on line 17
+[30-Nov-2022 09:17:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home2/orderh2l/public_html/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/orderh2l/public_html/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php on line 17
+[30-Nov-2022 09:24:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home2/orderh2l/public_html/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/orderh2l/public_html/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php on line 17
