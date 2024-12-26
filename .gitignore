@@ -31,12 +31,12 @@ Ignore uploads (optional, if you don't want to track them)
 /wp-content/uploads/
 
 # Ignore plugins (optional, except for custom plugins)
-/wp-content/plugins/*
+# /wp-content/plugins/*
 !/wp-content/plugins/your-custom-plugin/
 
 # Ignore themes (optional, except for custom themes)
 /wp-content/themes/*
-!/wp-content/themes/your-custom-theme/
+# !/wp-content/themes/your-custom-theme/
 
 # Ignore WordPress core backups and logs
 *.sql
@@ -45,8 +45,8 @@ Ignore uploads (optional, if you don't want to track them)
 *.log
 
 # Ignore Composer and Node dependencies
-/vendor/
-/node_modules/
+# /vendor/
+# /node_modules/
 
 # Ignore cache and temporary files
 /wp-content/cache/
@@ -56,13 +56,13 @@ Ignore uploads (optional, if you don't want to track them)
 /wp-content/debug.log
 
 # Ignore Backup Plugins
-/wp-content/updraft/
-/wp-content/backwpup-*.log
-/wp-content/backupbuddy_backups/
+# /wp-content/updraft/
+# /wp-content/backwpup-*.log
+# /wp-content/backupbuddy_backups/
 
 # Ignore Jetpack related files
-/wp-content/uploads/sites/*/jetpack/
+# /wp-content/uploads/sites/*/jetpack/
 
 # Ignore custom ignore rules for third-party plugins/themes (modify as needed)
-/wp-content/plugins/some-third-party-plugin/
-/wp-content/themes/some-third-party-theme/
+# /wp-content/plugins/some-third-party-plugin/
+# /wp-content/themes/some-third-party-theme/
