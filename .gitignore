@@ -1,6 +1,6 @@
 # Ignore system files
-.DS_Store
-Thumbs.db
+# .DS_Store
+# Thumbs.db
 
 # Ignore OS-specific hidden files
 *.log
@@ -27,12 +27,12 @@ wp-config-sample.php
 # /wp-admin/
 # /wp-includes/
 
-Ignore uploads (optional, if you don't want to track them)
+# Ignore uploads (optional, if you don't want to track them)
 # /wp-content/uploads/
 
 # Ignore plugins (optional, except for custom plugins)
 # /wp-content/plugins/*
-!/wp-content/plugins/your-custom-plugin/
+# !/wp-content/plugins/your-custom-plugin/
 
 # Ignore themes (optional, except for custom themes)
 # /wp-content/themes/*
