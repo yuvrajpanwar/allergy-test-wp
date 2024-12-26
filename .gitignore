@@ -35,7 +35,7 @@ Ignore uploads (optional, if you don't want to track them)
 !/wp-content/plugins/your-custom-plugin/
 
 # Ignore themes (optional, except for custom themes)
-/wp-content/themes/*
+# /wp-content/themes/*
 # !/wp-content/themes/your-custom-theme/
 
 # Ignore WordPress core backups and logs
