@@ -28,7 +28,7 @@ wp-config-sample.php
 # /wp-includes/
 
 Ignore uploads (optional, if you don't want to track them)
-/wp-content/uploads/
+# /wp-content/uploads/
 
 # Ignore plugins (optional, except for custom plugins)
 # /wp-content/plugins/*
