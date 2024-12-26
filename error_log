@@ -1,0 +1,29 @@
+[28-Nov-2022 04:08:04 UTC] PHP Fatal error:  Cannot redeclare wp_typography_get_css_variable_inline_style() (previously declared in /home2/orderh2l/public_html/wp-includes/deprecated.php:4475) in /home2/orderh2l/public_html/wp-includes/block-supports/typography.php on line 195
+[28-Nov-2022 04:08:05 UTC] PHP Fatal error:  Cannot redeclare wp_typography_get_css_variable_inline_style() (previously declared in /home2/orderh2l/public_html/wp-includes/deprecated.php:4475) in /home2/orderh2l/public_html/wp-includes/block-supports/typography.php on line 195
+[28-Nov-2022 04:08:08 UTC] PHP Fatal error:  Cannot redeclare wp_typography_get_css_variable_inline_style() (previously declared in /home2/orderh2l/public_html/wp-includes/deprecated.php:4475) in /home2/orderh2l/public_html/wp-includes/block-supports/typography.php on line 195
+[28-Nov-2022 04:08:12 UTC] PHP Fatal error:  Cannot redeclare wp_typography_get_css_variable_inline_style() (previously declared in /home2/orderh2l/public_html/wp-includes/deprecated.php:4475) in /home2/orderh2l/public_html/wp-includes/block-supports/typography.php on line 195
+[28-Nov-2022 12:59:21 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 382
+[28-Nov-2022 13:13:39 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 382
+[29-Nov-2022 01:54:22 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 382
+[29-Nov-2022 11:21:24 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 382
+[30-Nov-2022 09:53:01 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 384
+[30-Nov-2022 19:21:42 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 384
+[01-Dec-2022 10:58:11 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 384
+[01-Dec-2022 13:12:14 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 384
+[01-Dec-2022 19:20:41 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 384
+[02-Dec-2022 12:31:26 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 384
+[02-Dec-2022 12:31:30 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 384
+[02-Dec-2022 12:31:31 UTC] PHP Warning:  Undefined variable $wp_version in /home2/orderh2l/public_html/wp-content/plugins/contact-form-to-any-api/admin/class-cf7-to-any-api-admin.php on line 384
+[03-Dec-2022 02:23:54 UTC] PHP Warning:  fopen(/tmp/phpzlF5f5): Failed to open stream: Operation not permitted in /home2/orderh2l/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/request.php on line 957
+[03-Dec-2022 02:23:54 UTC] PHP Fatal error:  Uncaught TypeError: fread(): Argument #1 ($stream) must be of type resource, bool given in /home2/orderh2l/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/request.php:958
+Stack trace:
+#0 /home2/orderh2l/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/request.php(958): fread(false, 47953.0)
+#1 /home2/orderh2l/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/request.php(676): wfWAFRequest->highlightFailedParams()
+#2 /home2/orderh2l/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/storage/file.php(333): wfWAFRequest->__toString()
+#3 /home2/orderh2l/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/waf.php(1142): wfWAFStorageFile->logAttack(Array, 'request.fileNam...', 'abruzi.php', Object(wfWAFWordPressRequest), Array)
+#4 /home2/orderh2l/public_html/wp-content/plugins/wordfence/waf/bootstrap.php(432): wfWAF->blockAction(Object(wfWAFBlockException), 403, false, NULL)
+#5 /home2/orderh2l/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/waf.php(290): wfWAFWordPress->blockAction(Object(wfWAFBlockException))
+#6 /home2/orderh2l/public_html/wp-content/plugins/wordfence/waf/bootstrap.php(985): wfWAF->run()
+#7 /home2/orderh2l/public_html/wordfence-waf.php(6): include_once('/home2/orderh2l...')
+#8 {main}
+  thrown in /home2/orderh2l/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/request.php on line 958

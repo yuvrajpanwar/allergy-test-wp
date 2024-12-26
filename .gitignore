@@ -1,0 +1,68 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore OS-specific hidden files
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+*.idea/
+*.vscode/
+._*
+
+# Ignore PHPStorm and IDE files
+/.idea/
+/nbproject/
+/.vscode/
+/*.iml
+
+# Ignore sensitive files
+wp-config.php
+wp-config-sample.php
+.env
+
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore uploads (optional, if you don't want to track them)
+/wp-content/uploads/
+
+# Ignore plugins (optional, except for custom plugins)
+/wp-content/plugins/*
+!/wp-content/plugins/your-custom-plugin/
+
+# Ignore themes (optional, except for custom themes)
+/wp-content/themes/*
+!/wp-content/themes/your-custom-theme/
+
+# Ignore WordPress core backups and logs
+*.sql
+*.tar.gz
+*.zip
+*.log
+
+# Ignore Composer and Node dependencies
+/vendor/
+/node_modules/
+
+# Ignore cache and temporary files
+/wp-content/cache/
+/wp-content/advanced-cache.php
+/wp-content/backups/
+/wp-content/wp-cache-config.php
+/wp-content/debug.log
+
+# Ignore Backup Plugins
+/wp-content/updraft/
+/wp-content/backwpup-*.log
+/wp-content/backupbuddy_backups/
+
+# Ignore Jetpack related files
+/wp-content/uploads/sites/*/jetpack/
+
+# Ignore custom ignore rules for third-party plugins/themes (modify as needed)
+/wp-content/plugins/some-third-party-plugin/
+/wp-content/themes/some-third-party-theme/
