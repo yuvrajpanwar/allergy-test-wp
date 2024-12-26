@@ -1,0 +1,1 @@
+Â7ˆc<?php exit; ?>a:1:{s:7:"content";s:329:"a:4:{s:37:"optinmonster/optin-monster-wp-api.php";s:32:"optin_monster_api_uninstall_hook";s:44:"click-to-chat-for-whatsapp/click-to-chat.php";a:2:{i:0;s:15:"HT_CTC_Register";i:1;s:9:"uninstall";}s:24:"wordpress-seo/wp-seo.php";s:14:"__return_false";s:31:"advanced-access-manager/aam.php";a:2:{i:0;s:3:"AAM";i:1;s:9:"uninstall";}}";}

@@ -1,0 +1,1 @@
+Â7ˆc<?php exit; ?>a:1:{s:7:"content";s:55:"/home2/orderh2l/public_html/wp-content/themes/Divi/core";}

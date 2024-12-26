@@ -3,20 +3,20 @@
 # Thumbs.db
 
 # Ignore OS-specific hidden files
-*.log
-*.swp
-*.swo
-*.bak
-*.tmp
-*.idea/
-*.vscode/
-._*
+# *.log
+# *.swp
+# *.swo
+# *.bak
+# *.tmp
+# *.idea/
+# *.vscode/
+# ._*
 
 # Ignore PHPStorm and IDE files
-/.idea/
-/nbproject/
-/.vscode/
-/*.iml
+# /.idea/
+# /nbproject/
+# /.vscode/
+# /*.iml
 
 # Ignore sensitive files
 wp-config.php
@@ -49,11 +49,11 @@ wp-config-sample.php
 # /node_modules/
 
 # Ignore cache and temporary files
-/wp-content/cache/
-/wp-content/advanced-cache.php
-/wp-content/backups/
-/wp-content/wp-cache-config.php
-/wp-content/debug.log
+# /wp-content/cache/
+# /wp-content/advanced-cache.php
+# /wp-content/backups/
+# /wp-content/wp-cache-config.php
+# /wp-content/debug.log
 
 # Ignore Backup Plugins
 # /wp-content/updraft/
